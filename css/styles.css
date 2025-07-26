@@ -1,0 +1,184 @@
+body {
+  font-family:'Roboto', sans-serif;
+  color:#434455;
+  background-color:#FFFFFF;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  font-style: normal;
+  cursor: pointer;
+}
+
+button {
+  color: #434455;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  font-weight: 500;
+}
+
+a {
+  color: #434455;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+a:hover,
+a:focus,
+button:hover,
+button:focus {
+  color: #404BBF;
+}
+
+/* header */
+
+.header {
+  background-color: #FFFFFF;
+}
+
+.webstudio-logo {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  text-transform: uppercase; 
+  color: #4d5ae5;
+}
+
+.logo-studio {
+  color: #2E2F42
+}
+
+.nav-menu {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 500;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+}
+
+.address {
+  font-style: normal;
+}
+
+.nav-address {
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* section 1 banner */
+
+.first-banner {
+  background-color: #2E2F42;
+}
+
+.banner-header {
+  text-align: center;
+  letter-spacing: 0.02em;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: white;
+}
+
+.banner-button {
+  background-color: #4D5AE5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.banner-button:focus,
+.banner-button:hover {
+  background-color: #404BBF;
+}
+
+/* section 2 advantages */
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+}
+
+.advantages-header {
+  font-weight: 500;
+  font-size: 20px;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+}
+
+.advantages-text {
+  letter-spacing: 0.02em;
+}
+
+/* section 3 team */
+
+.team {
+  background-color: #F4F4FD;
+}
+
+.team-member {
+  background-color: #FFFFFF;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.member {
+  color: #2E2F42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.member-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* section 4 portfolio */
+
+.portfilio-item-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  color: #2e2f42;
+  letter-spacing: 0.02em;  
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* footer */
+
+.footer {
+  background-color: #2E2F42;
+  color: #F4F4FD;
+}
+
+.webstudio-logo-accent {
+  color: #f4f4fd;
+}
+
+.footer-text {
+  letter-spacing: 0.02em;
+}
