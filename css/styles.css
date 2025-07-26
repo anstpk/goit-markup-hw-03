@@ -54,6 +54,7 @@ body {
 .header {
   background-color: #FFFFFF;
   color: #434455;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header li a {
@@ -68,10 +69,14 @@ body {
   color: #404BBF;
 }
 
-.header-nav {
+.header-container {
   display: flex;
   align-items: center; 
-  border-bottom: 1px solid #e7e9fc;
+}
+
+.headeer-nav {
+  display: flex;
+  align-items: center; 
 }
 
 .webstudio-logo {
@@ -95,15 +100,6 @@ body {
   color: #434455;
 }
 
-.nav-buttons-contact {
-  display: flex;
-  gap: 40px;
-}
-
-.nav-buttons-contact li {
-  color: #434455;
-}
-
 .nav-menu {
   display: block;
   padding: 24px 0;
@@ -117,6 +113,11 @@ body {
 .address {
   font-style: normal;
   margin-left: auto;
+}
+
+.nav-buttons-contact {
+  display: flex;
+  gap: 40px;
 }
 
 .nav-address {
