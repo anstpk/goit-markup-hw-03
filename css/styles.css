@@ -70,9 +70,8 @@ body {
 
 .header-nav {
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  gap: 76px;
+  align-items: center; 
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .webstudio-logo {
@@ -83,6 +82,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo-studio {
@@ -92,13 +92,8 @@ body {
 .nav-buttons {
   display: flex;
   gap: 40px;
-}
-
-.nav-buttons li {
-
   color: #434455;
 }
-
 
 .nav-buttons-contact {
   display: flex;
@@ -110,6 +105,8 @@ body {
 }
 
 .nav-menu {
+  display: block;
+  padding: 24px 0;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 500;
@@ -148,13 +145,15 @@ body {
 }
 
 .banner-button {
+  display: block;
+  margin: 0 auto;
   background-color: #4D5AE5;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   border-radius: 4px;
 }
@@ -203,7 +202,7 @@ body {
   display: flex;
 }
 
-.advantages-list li {
+.advantages-item {
   width: calc((100% - (24px * 3)) / 4);
 }  
 
@@ -251,7 +250,7 @@ body {
 } 
 
 .team-member-info {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 
 
@@ -265,14 +264,10 @@ body {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
+  gap: 48px 24px;
 }
 
-.portfolio-list ul {
-  display: flex;
-}
-
-.portfolio-list li {
+.portfilio-item {
   width: calc((100% - (24px * 2)) / 3);
 } 
 
@@ -309,6 +304,23 @@ body {
   padding-bottom: 100px;
 }
 
+.webstudio-logo-footer {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-right: 76px;
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.webstudio-logo-accent {
+  color: #f4f4fd;
+}
+
 .footer li a {
   font-size: 12px;
   line-height: 16px;
@@ -319,10 +331,6 @@ body {
 .footer a:hover,
 .footer a:focus {
   color: #404BBF;
-}
-
-.webstudio-logo-accent {
-  color: #f4f4fd;
 }
 
 .footer-text {
