@@ -74,12 +74,17 @@ body {
   align-items: center; 
 }
 
-.headeer-nav {
+.header-nav {
   display: flex;
   align-items: center; 
 }
 
-.webstudio-logo {
+.header .logo {
+  margin-right: 76px;
+}
+
+.logo {
+  display: block;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   line-height: 1.17;
@@ -87,11 +92,14 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 76px;
 }
 
 .logo-studio {
   color: #2E2F42
+}
+
+.logo-studio-accent {
+  color: #f4f4fd;
 }
 
 .nav-buttons {
@@ -305,37 +313,16 @@ body {
   padding-bottom: 100px;
 }
 
-.webstudio-logo-footer {
-  font-family: 'Raleway', sans-serif;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  margin-right: 76px;
-  display: inline-block;
-  margin-bottom: 16px;
-}
-
-.webstudio-logo-accent {
-  color: #f4f4fd;
-}
-
-.footer li a {
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.04em;
-  font-weight: 400;
-}
-
 .footer a:hover,
 .footer a:focus {
   color: #404BBF;
 }
 
+.footer .logo {
+  margin-bottom: 16px;
+}
+
 .footer-text {
   letter-spacing: 0.02em;
-  margin-top: 16px;
   width: 264px;
 }
